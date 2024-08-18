@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaizen Ranch Eco Resort</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #3a4d2e;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #ccc 3px solid;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .main {
+            padding: 20px;
+        }
+        .main h2 {
+            color: #3a4d2e;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+        footer {
+            background: #3a4d2e;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kaizen Ranch Eco Resort</h1>
+            <nav>
+                <a href="#about">About Us</a> |
+                <a href="#accommodations">Accommodations</a> |
+                <a href="#activities">Activities</a> |
+                <a href="#contact">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container main">
+        <section id="about">
+            <h2>About Kaizen Ranch</h2>
+            <p>Welcome to Kaizen Ranch Eco Resort, a family-scale working homestead nestled in the high desert of New Mexico. Our resort features a microgreen farm, goats, chickens, and bees. Guests can stay in our off-grid dwellings and experience a day in the life of a homesteader. Immerse yourself in sustainable living and enjoy the serene beauty of the desert landscape.</p>
+        </section>
+
+        <section id="accommodations">
+            <h2>Accommodations</h2>
+            <p>Our eco-friendly off-grid dwellings offer a unique and comfortable stay. Each accommodation is designed to provide a rustic yet cozy experience, perfect for families and individuals seeking a break from city life. Enjoy the tranquility of nature while staying in our carefully designed spaces.</p>
+        </section>
+
+        <section id="activities">
+            <h2>Activities</h2>
+            <p>Experience the joys of homesteading with activities such as tending to our microgreen farm, interacting with our goats, chickens, and bees, and learning sustainable practices. Our resort offers hands-on experiences that allow you to connect with nature and learn about self-sufficiency.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For bookings and inquiries, please reach out to us at:</p>
+            <p>Email: <a href="mailto:info@kaizenranch.com">info@kaizenranch.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Desert Lane, High Desert, NM</p>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <!-- Add images of the resort here -->
+            <img src="path/to/your-image1.jpg" alt="Resort Image 1">
+            <img src="path/to/your-image2.jpg" alt="Resort Image 2">
+            <img src="path/to/your-image3.jpg" alt="Resort Image 3">
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Kaizen Ranch Eco Resort. All rights reserved.</p>
+    </footer>
+</body>
+</html>
